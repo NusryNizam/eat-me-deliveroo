@@ -1,0 +1,22 @@
+.sidenav {
+  min-width: 360px;
+}
+.sidenav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.sidenav-content {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  /* background-color: rebeccapurple; */
+  min-height: calc(100vh - 74px);
+}
+
+.spacer {
+  margin-top: auto;
+}

@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1920px;
+  display: block;
+  margin: auto;
+  /* padding: 1rem 2rem; */
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.pt-1 {
+  padding-top: 0.5rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.heading {
+  font-family: 'PT Sans';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'PT Sans';
+}
+
+.text-muted {
+  color: rgb(83, 83, 83);
+}
+
+.text-small {
+  font-size: 0.875rem;
+}
+
+button {
+  font-family: 'IBM Plex Sans' !important;
+  text-transform: capitalize !important;
+}
+
+button:active,
+a:active {
+  outline: 3px solid #00ccbb7a;
+}

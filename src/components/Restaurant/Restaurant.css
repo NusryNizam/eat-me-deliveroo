@@ -1,0 +1,147 @@
+@import url(../../variables.css);
+
+main {
+  border-bottom: 1px solid var(--border-color);
+  /* background-color: grey; */
+  padding: 1rem 4rem 2rem 4rem;
+}
+
+.details-container {
+  display: flex;
+  gap: 1.125rem;
+
+  /* flex-wrap: wrap; */
+}
+.details-container__image {
+  max-width: 468px;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  border-radius: 4px;
+  display: grid;
+  place-items: center;
+  outline: 1px solid var(--border-color);
+  flex: 1;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  align-self: flex-start;
+  gap: 0.25rem;
+}
+
+.details-container__right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+  width: 100%;
+  flex: 2;
+}
+
+.restaurant-name {
+  font-size: 2.5rem;
+}
+
+@media (max-width: 1600px) {
+  main {
+    padding: 1rem 1.5rem 2rem 1.5rem;
+  }
+}
+
+@media (max-width: 1280px) {
+  .action {
+    margin-left: 0;
+    margin-right: auto;
+  }
+  .details-container__image {
+    aspect-ratio: auto;
+  }
+}
+
+.action-small > :first-child {
+  /* display: none; */
+  visibility: hidden;
+}
+
+@media (max-width: 968px) {
+  .restaurant-name {
+    font-size: 1.6rem;
+  }
+
+  .action {
+    width: 50%;
+  }
+
+  .action > :last-child {
+    display: none;
+  }
+
+  .details-container__image {
+    position: relative;
+  }
+
+  .action-small > :first-child {
+    visibility: visible;
+    position: absolute;
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .details-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .action {
+    width: 100%;
+  }
+
+  main {
+    padding: 0;
+  }
+
+  .details-container__image {
+    min-width: 100%;
+    border-radius: 0;
+    margin-top: -80px;
+    z-index: -1;
+    aspect-ratio: 16/9;
+  }
+
+  .btn-back {
+    background-color: white !important;
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    border-radius: 100% !important;
+    aspect-ratio: 1;
+    display: grid;
+  }
+
+  .btn-back * {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .hide-in-small {
+    display: none;
+  }
+
+  .action-small > :first-child {
+    inset: unset;
+    right: 1rem;
+    bottom: 1rem;
+  }
+
+  .details-container__right {
+    padding: 1rem;
+  }
+
+  /* .details-container__right > * {
+    width: 100%;
+  } */
+}

@@ -1,0 +1,20 @@
+.InfoButton {
+  all: unset;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.25rem;
+  border-radius: 4px;
+  width: 100%;
+  /* outline: 1px solid red; */
+}
+
+.InfoButton:active {
+  outline: 3px solid #00ccbb7a;
+}
+
+.info-button-details {
+  display: flex;
+  flex-direction: column;
+}

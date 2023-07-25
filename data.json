@@ -1,0 +1,71 @@
+{
+  "restaurants": [
+    {
+      "id": 999,
+      "restaurantName": "Tossed - St Martin's Lane",
+      "categories": ["Chicken", "Salads", "Healthy"],
+      "distance": 0.2,
+      "openTime": "Opens at 11:00 on Monday",
+      "deliveryFee": "£0.99",
+      "mininumAmount": "£7",
+      "imageURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+    },
+    {
+      "id": 998,
+      "restaurantName": "Jack's at the Junction",
+      "categories": ["Brakfast", "Brunch", "Pancakes"],
+      "distance": 3.4,
+      "openTime": "Closes at 16:30",
+      "deliveryFee": "£3.99",
+      "mininumAmount": "£7",
+      "imageURL": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTZ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 997,
+      "restaurantName": "Ole & Steen - St James's",
+      "categories": ["Bakery", "Sandwiches", "Salads"],
+      "distance": 0.3,
+      "openTime": "Closes at 20:00",
+      "deliveryFee": "£0.49",
+      "mininumAmount": "£7",
+      "imageURL": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTl8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+    }
+  ],
+  "data": [
+    {
+      "categoryTitle": "Bundles",
+      "items": [
+        {
+          "title": "Create Your Own Salad",
+          "description": "Create your own masterpiece! choose from over 70 fresh and healthy ingredients",
+          "price": "$4.99",
+          "imageURL": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+        },
+        {
+          "title": "Salad Bundle",
+          "description": "A perfect healthy & delicious meal. Choose from one of our favourite salads, add a drink and snack for just",
+          "price": "$14.99",
+          "imageURL": "https://images.unsplash.com/photo-1481070555726-e2fe8357725c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80"
+        }
+      ]
+    },
+
+    {
+      "categoryTitle": "Bundles",
+      "items": [
+        {
+          "title": "Create Your Own Salad",
+          "description": "Create your own masterpiece! choose from over 70 fresh and healthy ingredients",
+          "price": "$4.99",
+          "imageURL": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+        },
+        {
+          "title": "Salad Bundle",
+          "description": "A perfect healthy & delicious meal. Choose from one of our favourite salads, add a drink and snack for just",
+          "price": "$14.99",
+          "imageURL": "https://images.unsplash.com/photo-1481070555726-e2fe8357725c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80"
+        }
+      ]
+    }
+  ]
+}
